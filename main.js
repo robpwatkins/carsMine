@@ -30,8 +30,8 @@ console.log(totalCars);
 console.log(totalCars.indexOf('Honda'));
 console.log(totalCars.lastIndexOf('Ford'));
 
-const stringOfCars = totalCars.join(' ');
+const stringOfCars = totalCars.join();
 console.log(stringOfCars);
 
-const carsFromString = stringOfCars.split(' ');
+const carsFromString = stringOfCars.split(',');
 console.log(carsFromString);
