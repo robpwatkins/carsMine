@@ -42,4 +42,18 @@ console.log(carsInReverse);
 carsInReverse.sort();
 console.log(carsInReverse.indexOf('BMW') == 0);
 
-console.log()
+console.log(carsInReverse);
+
+carsInReverse.splice(1, 2, 'heyoo', 'wayoo');
+console.log(carsInReverse);
+
+const pets = ['dog', 'cat', 'fish', 'rabbit', 'snake', 'lizard', 'bird'];
+const reptiles = pets.slice(4, 6);
+console.log(reptiles);
+console.log(pets);
+
+const removedPets = pets.splice(1, 2, 'hamster');
+console.log(removedPets, pets);
+
+pets.push(removedPets[0]);
+console.log(pets);
