@@ -35,3 +35,11 @@ console.log(stringOfCars);
 
 const carsFromString = stringOfCars.split(',');
 console.log(carsFromString);
+
+const carsInReverse = totalCars.reverse();
+console.log(carsInReverse);
+
+carsInReverse.sort();
+console.log(carsInReverse.indexOf('BMW') == 0);
+
+console.log()
